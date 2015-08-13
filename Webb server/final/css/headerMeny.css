@@ -1,0 +1,83 @@
+nav.dropDownHeader ul.LevelOneMeny ul.LevelTwoMeny {
+	background: #005389;
+	border-radius: 0px; 
+	display: none;
+	padding: 0;
+	top: 100%;
+	position: absolute;
+	z-index: 5  !important;
+
+
+
+
+}
+	nav.dropDownHeader ul.LevelOneMeny ul.LevelTwoMeny li.dropDownMeny {
+			float: none; 
+			border-top: 1px solid #004578;
+			border-bottom: 1px solid #004578;
+			position: relative;
+			z-index: 5 !important;
+
+			
+		}
+			nav.dropDownHeader ul.LevelOneMeny ul.LevelTwoMeny li.dropDownMeny a {
+				padding: 15px 40px;
+				color: #fff;
+				margin-top: 5px;
+				margin-bottom: 5px;
+			}	
+				nav.dropDownHeader ul.LevelOneMeny ul.LevelTwoMeny li.dropDownMeny a:hover {
+					background: #004578;
+				}
+
+		nav.dropDownHeader ul.LevelOneMeny li.dropDownMeny:hover > ul.LevelTwoMeny {
+			display: block;
+		}
+
+	nav.dropDownHeader ul.LevelOneMeny {
+	/* background: #efefef; 
+	background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
+	background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
+	background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%); 
+
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15); */
+	padding: 0 20px;
+	border-radius: 10px;  
+	list-style: none;
+	position: relative;
+	overflow: auto;
+	display: inline-table;
+}
+
+nav.dropDownHeader ul.LevelOneMeny :hover{
+	background: #004578 ;
+}
+	nav.dropDownHeader ul.LevelOneMeny:after {
+		content: ""; 
+		clear: both; 
+		display: block;
+	}
+
+
+	nav.dropDownHeader ul.LevelOneMeny li.dropDownMeny {
+		float: left;
+		padding: 0;
+  		margin: 0;
+}
+	nav.dropDownHeader ul.LevelOneMeny li.dropDownMeny:hover {
+		background: #4b545f;
+		background: linear-gradient(top, #005389 0%, #005389 40%);
+		background: -moz-linear-gradient(top, #005389 0%, #005389 40%);
+		background: -webkit-linear-gradient(top, #005389 0%,#005389 40%);
+	}
+		nav.dropDownHeader ul.LevelOneMeny li.dropDownMeny:hover a {
+			color: #fff;
+		}
+	
+	nav.dropDownHeader ul.LevelOneMeny li.dropDownMeny a {
+		display: block;
+		padding: 25px 40px;
+		color: #fff; 
+		margin-right: 15px;
+		text-decoration: none;
+	}

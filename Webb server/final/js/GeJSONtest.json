@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sydvästra Uppsala"
+        
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+           [17.583618,59.862057],[17.583275,59.842228], [17.623100,59.840675],[17.622757,59.863953],[17.583618,59.862057]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nordvästra Uppsala"
+        
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+           [17.584305,59.884286],[17.621384,59.886353],[17.622757,59.863953],[17.583618,59.862057],[17.584305,59.884286]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nordöstra Uppsala"
+        
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+           [17.672539,59.887731] ,[17.672539,59.865677],[17.622757,59.863953],[17.621384,59.886353],[17.672539,59.887731]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sydöstra Uppsala"
+        
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+           [17.673569,59.842055],[17.623100,59.840675],[17.622757,59.863953],[17.672539,59.865677],[17.673569,59.842055]
+          ]
+        ]
+      }
+    }
+  ]
+}

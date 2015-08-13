@@ -1,0 +1,54 @@
+/*
+#
+#  Temporary CSS for the cykel bikeoffice 
+#  Will be integrated in backoffice.css
+#  at a later date. 
+#
+#  Specify the CSS based on the parent element,
+#  for example: #right-column #miniMap { - Some atributes - }
+*/
+
+
+#cykelknappmeny button{
+	float:left;
+	font-size: 0.8em;
+	color: #999;
+	/*font-weight: 300;
+	/* font-family: 'Droid Sans', sans-serif; */
+	margin-top: 15px;
+	margin-left: 21px;
+	margin-bottom: 15px;
+	float: left;
+	color: #fff;
+	cursor: pointer;
+	/* font-weight: 900; */
+	outline: none;
+	/* font-family: 'Raleway', sans-serif; */
+	padding: 6px 2px;
+	width: 120px;
+	font-size: 18px;
+	background:#1f548e;
+	border:3px solid #1f548e;
+}
+
+#cykelknappmeny button:hover {
+	background: #fff;
+	color:#1f548e;;
+	border:3px solid #1f548e;;
+	color:#1f548e;
+
+}
+
+#cykelknappmeny button:nth-child(1) {
+margin-left: 10px;
+
+}
+
+
+#detailedMarkerInfo #name, #detailedMarkerInfo #open{
+margin-left: 20px;
+}
+
+#detailedMarkerInfo #name {
+	font-size: 1.2em;
+}

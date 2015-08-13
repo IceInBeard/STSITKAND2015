@@ -1,0 +1,322 @@
+.widget #mainCykelWidget{
+
+	height:270px;
+	width:320px;
+	border:2px;
+	border-radius: 10px;
+	border-color: #D4D4CA;
+
+}
+
+.widget #mainCykelWidget .top{
+	width:100%;
+	height:12%;
+	/* background-color:#1f548e; */
+	display: block;
+	border-radius: 10px 10px 0px 0px;
+
+}
+
+.widget #mainCykelWidget h4{
+	font-family: Verdana;
+	font-weight: bold;
+	text-align: center;
+	color: #ffffff;
+	font-size:12pt;
+	margin-top: 1px;
+	
+}
+
+
+.widget #mainCykelWidget #BicycleCheckbox{
+	width:100%;
+	height:100%;
+	/*background-color: #EBEBEB;*/
+	border-radius: 0px 0px 10px 10px;
+
+}
+
+
+
+.widget #mainCykelWidget #BicycleTable{
+	font-family: Arial;
+	width: 100%;
+	height: 100%;
+	border-collapse: collapse;
+	/*background-color: rgba(255,255,255,0.3);*/
+	color: gray;
+
+}
+
+.widget #mainCykelWidget #BicycleTable tbody{
+	display: block;
+}
+
+.widget #mainCykelWidget .headers{
+	font-size:12pt;
+	padding-left:25px;
+
+}
+.widget #mainCykelWidget .headers td {
+	padding: 10px 0px 10px 10px;
+}
+
+.widget #mainCykelWidget .headers td img {
+	/* float: left; */
+	display: inline-block;
+	margin-right: 5px;
+	width: 20px;
+}
+
+.widget #mainCykelWidget .headers .info {
+	float: right;
+	margin-left:5px;
+}
+
+.widget #mainCykelWidget .headers .info:hover {
+	opacity: 0.3;
+	filter: alpha(opacity=30); 
+}
+.widget #mainCykelWidget .headers .info {
+	width: 15px;
+}
+
+
+.cykelSubWidget {
+
+	height:200px;
+	width:320px;
+	border:2px;
+	border-radius: 10px;
+	border-color: #D4D4CA;
+
+}
+
+
+
+.cykelSubWidget #AmountCyclistTable{
+	width:100%;
+	height:90%;
+	border-radius: 0px 0px 10px 10px;
+}
+
+
+.cykelSubWidget #BicycleCheckbox{
+	width:100%;
+	height:90%;
+	background-color: #D6D6D3;
+}
+
+.cykelSubWidget #AmountCyclistTable {
+	font-family: Arial;
+	width: 100%;
+	height: 100%;
+	border-collapse: collapse;
+	background-color: rgba(255,255,255,0.3);
+	color: gray;
+	font-size: 8pt;
+}
+.cykelSubWidget #AmountCyclistTable td{
+	padding: 10px 0px 10px 10px;
+	font-size: 12pt;
+}
+
+.cykelSubWidget .header{
+	font-size:12pt;
+	font-weight: bold;
+	
+}
+
+.widget .widgethead img {
+	height: 22px;
+	margin-top: 0px;
+}
+
+.widget .widgethead checkbox_icon {
+	height: 27px;
+	margin-top: 0px;
+}
+
+.widget #ServiceShopTable {
+	overflow-y: scroll;
+	width:100%;
+	height:251px;
+	border-radius: 10px;
+	  overflow-x: hidden;
+}
+
+.widget #ServiceChopsTable {
+	overflow-y: scroll;
+	width:100%;
+	max-height:251px;
+}
+
+
+.widget #ServiceShopTable #BicycleCheckbox{
+	width:100%;
+	height:100%;
+	background-color: #D6D6D3;
+}
+
+.widget #ServiceShopTable table {
+  font-family: Arial;
+  width: 100%;
+  height: 100%;
+  /* border-collapse: collapse; */
+  background-color: rgba(255,255,255,0.3);
+  
+  font-size: 10pt; }
+
+.widget #ServiceShopTable .header{
+	cursor: pointer;
+	padding: 6px;
+	  color: #fff;
+}
+
+.widget #ServiceShopTable .section{
+	width:320px;
+	height:75px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+
+}
+ 
+::-webkit-scrollbar-thumb {
+
+    -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.5); 
+}
+
+.widget #ServiceShopTable #contact {
+  float: left;
+  font-size: 10pt;
+  padding-bottom: 10px;
+  color: #005389;
+  width: 290px;
+}
+.widget #ServiceShopTable tr:nth-child(odd) td:hover {
+  background: #2E79CD;
+}
+
+.widget #ServiceShopTable #openingHours {
+  width: 110px;
+  float: left;
+  border: 1px solid #ccc;
+  padding: 5px;
+  font-size: 10pt;
+  padding-bottom: 10px;
+  color: rgb(68, 115, 68);
+    margin-right: 10px;
+
+}
+
+.widget #ServiceShopTable #description{
+	width:290px;
+	font-size:10pt;
+	overflow: hidden;
+	  display: inline;
+    
+
+
+
+}
+
+
+.widget #ServiceShopTable tbody tr:hover {
+	background-color: rgba(255,255,255,0.3);
+}
+
+.widget #ServiceShopTable tr:nth-child(even) td {
+	background-color: rgba(255,255,255,0.3);
+	padding: 5px;
+}
+
+.widget #ServiceShopTable tr:nth-child(odd) td {
+	background-color: #005389;
+	padding: 5px;
+}
+
+.widget #Bicycle_graphs {
+	margin-left: 35px;
+	padding-top: 20px;
+
+}
+
+.widget #Bicycle_graphs input#DHbutton {
+width: 250px;
+padding: 10px;
+font-size: 120%;
+background: #005389;
+color: #FFFFFF;
+cursor: pointer;
+border: 3px solid;
+
+margin-bottom: 15px;
+/*-webkit-box-shadow: 6px 6px 5px #999999;
+-moz-box-shadow: 6px 6px 5px #999999;
+box-shaddow: 6px 6px 5px; #999999;*/
+
+
+}
+
+.widget #Bicycle_graphs input#DHbutton:hover {
+	background-color: #fff;
+	color:#1f548e;
+	border-style: solid;
+	border-color:#1f548e;
+	-moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+   
+}
+
+.info-window {
+	display:none;
+	position: relative;
+	width: 500px;
+	background-color: white;
+	overflow: hidden;
+
+}
+
+.info-window  img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#infowindow_nodes #header-info {
+    position: relative;
+    left: 35%;
+}
+
+#infowindow_road #road-info {
+    position: relative;
+    left: 32%;
+}
+
+#infowindow_nodes ul {
+    margin-bottom:10px;
+}
+
+#infowindow_nodes li {
+   display:inline-block;
+   margin-bottom: 25px;
+}
+
+#infowindow_nodes #start-scale {
+   margin-left: 50px;
+}
+
+#infowindow_nodes #end-scale {
+   margin-left: 335px;
+}
+
+#infowindow_road img {
+   margin-bottom: 20px;
+}
+

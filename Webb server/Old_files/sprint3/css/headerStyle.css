@@ -1,0 +1,217 @@
+/* 
+############################################
+################# Icons  ###################
+############################################
+*/
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:url('../fonts/icomoon.eot?gk2bah');
+  src:url('../fonts/icomoon.eot?#iefixgk2bah') format('embedded-opentype'),
+    url('../fonts/icomoon.woff?gk2bah') format('woff'),
+    url('../fonts/icomoon.ttf?gk2bah') format('truetype'),
+    url('../fonts/icomoon.svg?gk2bah#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  margin:8px;
+  color:red;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+  content: "\e900";
+}
+
+.icon-facebook2:before {
+  content: "\ea8d";
+}
+
+.icon-instagram:before {
+  content: "\ea90";
+}
+
+.icon-twitter2:before {
+  content: "\ea92";
+}
+
+
+
+
+#header-container #top #topMenu a:hover {
+color: #ccc;
+
+   }
+
+
+/* 
+############################################
+########### Header Container ###############
+############################################
+*/
+
+
+
+#header-container{
+	background: #005389;
+    position: fixed;
+  height: 75px;
+  width: 100%;
+  z-index: 3;
+}
+
+
+#header-container #top {
+	float: none;
+  	position: relative;
+  	max-width: 990px;
+  	margin: 0 auto;
+	 padding: 15px 32px 10px 32px;
+  
+}
+
+
+/* 
+############################################
+################ Logo ######################
+############################################
+*/
+
+
+#header-container #top>a {
+	  float: left;
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+
+#header-container #top>a>img {
+	height: 50px;
+ 
+	
+}
+
+
+/* 
+############################################
+################ Menu ######################
+############################################
+*/
+
+
+#header-container #top #topMenu {
+  float: right;
+  padding: 21px 0 0 0;
+  position: relative;
+  bottom: 8px;
+  font-size: 14px;
+
+}
+
+#header-container #top #topMenu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+#header-container #top #topMenu>ul {
+  overflow: hidden;
+}
+
+#header-container #top #topMenu>ul>li {
+  float: left;
+  padding: 0 0 0 1em;
+
+}
+
+#header-container #top #topMenu>ul>li:first-child {
+	padding: 0;
+}
+
+#header-container #top #topMenu ul li a {
+	font-size: 16px;
+  	padding: 0 5px 0 5px;
+
+}
+
+
+
+#header-container #top #topMenu>ul>li>a {
+  font-size: 16px;
+  padding: 0 5px 0 5px;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+}
+
+#header-container #top #topMenu>ul>li>a:hover {
+  text-decoration: underline;
+}
+
+
+
+/* 
+############################################
+################## UserBox #################
+############################################
+*/
+
+
+#header-container #top #usernamediv{
+  position: relative; 
+  float: right;
+  padding: 21px 0 0 0;
+	bottom: 8px;
+	font-size: 14px;
+	color:#fff;
+  padding-left: 32px;
+
+}
+
+#header-container #top #usernamediv a {
+  color:#ff0000;
+}
+
+
+
+
+
+/* 
+############################################
+############# Gul Border ###################
+############################################
+*/
+
+#border-container {
+  overflow: hidden;
+  background: #fff;
+  margin: 0 auto;
+  max-width: 990px;
+}
+
+#border-container #border {
+  border-top: 12px solid #ffd400;
+  padding: 0 16px 0 16px;
+  margin-top: 75px;
+   position: fixed;
+  
+  z-index: 2;
+  width: 990px;
+
+}
+
+

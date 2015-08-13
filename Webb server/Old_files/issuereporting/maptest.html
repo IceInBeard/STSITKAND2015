@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head> <meta charset="UTF-8">
+
+    <link type="text/css" href="mapStyle.css" rel="stylesheet">
+
+    </link>
+    <script src="jquery-1.11.2.js"></script>
+
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMbQF_U346cDNgBehK5fHOVi9rby-Bak4">
+    </script>
+
+    <script type="text/javascript" src="mapFunc.js">
+    </script>
+
+</head>
+
+<body onload="onloading()">
+    <div id ="checkboxes">
+        <form action="">
+            <input checked type ="checkbox" name ="category" value ="lampor" onclick="switchCheckbox(this)"> Lampanmälningar <br>
+            <input checked type ="checkbox" name ="category" value ="paint" onclick="switchCheckbox(this)"> Målningsanmälningar <br>
+            <input checked type ="checkbox" name ="category" value ="snow" onclick="switchCheckbox(this)"> Snöröjninganmälningar <br>
+            <input checked type ="checkbox" name ="category" value ="roads" onclick="switchCheckbox(this)"> Vägproblem
+
+        </form>
+
+        </div>
+    <input type="text" id="latFld">
+    <input type="text" id="lngFld">
+    <div id="map-canvas"></div>
+
+
+</body>
+</html>

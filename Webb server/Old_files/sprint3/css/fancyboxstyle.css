@@ -1,0 +1,9 @@
+.fancybox-opened .fancybox-inner {
+border-top:20px solid #005389;
+padding-top:10px;
+}
+
+
+.fancybox-opened .fancybox-inner #header-infoCloud{
+margin-top:5px;
+}

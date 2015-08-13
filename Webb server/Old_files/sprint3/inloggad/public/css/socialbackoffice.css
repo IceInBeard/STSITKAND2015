@@ -1,0 +1,571 @@
+/*
+#
+#  Temporary CSS for the social media bikeoffice 
+#  Will be integrated in backoffice.css
+#  at a later date. 
+#
+#  Specify the CSS based on the parent element,
+#  for example: #right-column #miniMap { - Some attribute - } 
+*/
+
+.showW1{
+	width:330px;
+	height:315px;
+	margin-left:6px;
+	margin-top:-4px;
+	border-bottom:1px solid black;
+	border-color:#EFEFEC;
+
+}
+
+.twitterText{
+	font-family:Arial;
+	font-size:17px;
+	color:#fff;
+	margin-top:12px;
+	
+}
+
+.widget .socialmeidawidget{
+
+	min-width:5px;
+	height:270px;
+	width:100%;
+/*	border:2px solid black;
+	border-radius: 10px;
+	border-color: #D4D4CA;
+*/
+
+
+}
+
+
+.showW1 .widget .socialmeidawidget .top{
+
+	width:100%;
+	height:47px;
+	background-color:#1f548e;
+	display: block;
+	top: -10%;
+	min-height:5px;
+	min-width:5px;
+}
+
+.showW1 .widget .socialmeidawidget  #twitterLogga{
+
+	width: 25px;
+    float: left;
+    padding-top:1px;
+	margin-top:12px;
+	margin-left:4px;
+   
+}
+
+.widget .socialmeidawidget  #twitterPin{
+
+	width: 20px;
+    float: left;
+    padding-top:1px;
+	margin-top:-2px;
+   
+}
+
+.widget .socialmeidawidget  h4{
+
+	font-family: Verdana;
+	font-weight: bold;
+	text-align: center;
+	font-size: 12px;
+	color: #ffffff;
+	
+	margin-top: 0px;
+}
+
+
+.widget .socialmeidawidget  .left{
+
+
+	
+	/* border-top:2px solid black;*/
+	border-right:2px solid black;
+	border-left:1px solid black;
+	border-color:#EFEFEC;
+	float:left;
+	/* background-color: #D6D6D3; */
+	min-height:5px;
+	min-width:5px;
+	margin-top: -0.2px;
+	height: 100%;
+	overflow:hidden;
+	width:200px;
+	
+}
+
+
+
+.widget .socialmeidawidget .top_0{
+
+	width:100%;
+	height:6%;
+	margin-top:-8px;
+}
+
+
+
+.widget .socialmeidawidget .top_1{
+
+	width:100%;
+	height:25%;
+	
+
+}
+
+.widget .socialmeidawidget .bottom_1{
+
+	width:100%;
+	height:33.333%;
+	margin-top:-16px;
+}
+
+/*.widget .socialmeidawidget .bottom_2{
+
+	width:100%;
+	height:33.333%;
+
+}*/
+
+.widget .socialmeidawidget .knappGo{
+
+	width:100%;
+	height:17%;
+	margin-top:-8px;
+
+
+}
+
+.widget .socialmeidawidget .heatPin{
+
+	width:100%;
+	height:8%;
+	margin-top:-12px;
+
+
+}
+
+
+
+.widget .socialmeidawidget .mellanTop{
+
+	width:100%;
+	height:15%;
+	/* background-color:#C0C0BF;*/
+	display: block;
+}
+
+.widget .socialmeidawidget .text1{
+
+	font-size: 9pt;
+	font-family: Verdana;
+	text-align: center;
+	color: #ffffff;
+	margin-bottom: 100px;
+	margin-top: 0px;
+}
+
+
+
+
+.widget .socialmeidawidget input{
+
+border : 0;
+  
+}
+
+.widget .socialmeidawidget #search input {
+	background: none repeat scroll 0 0 #fff;
+	border: 1px solid black;
+	border-color:#F1F1F0;
+	color: #7F7F7F;
+	float: center;
+	font: 12px 'Helvetica','Lucida Sans Unicode','Lucida Grande',sans-serif;
+	height: 12px;
+	margin: 0;
+	padding: 10px;
+	transition: background 0.3s ease-in-out 0s;
+	width: 72%;
+    	margin-left:18.5px;
+    	margin-top: -4px;
+	
+}
+
+.widget .socialmeidawidget #search button {
+	background: url("http://www.veryicon.com/icon/png/System/Radium/Search.png") no-repeat scroll center center #1f548e;
+	background-size: 80% 80%;
+	cursor: pointer;
+	height: 37px;
+	text-indent: -99999em;
+	transition: background 0.3s ease-in-out 0s;
+	width: 37px;
+	border: 2px solid #fff;
+	float: right;
+	margin-left: -35px;
+	margin-top: -25px;
+
+}
+
+.widget .socialmeidawidget #search button:hover {
+	background-color: rgba(255,255,255,0.3);
+
+}
+
+.widget .socialmeidawidget #fran{
+
+	width:20px;
+	height:10px;
+	/*border:1px solid black;
+	border-color: #F1F1F0;
+	border-radius:2px;
+	box-shadow: 2px 2px 1px #E4E4DF;*/
+	margin-right: -30px;
+	float:left;
+	font-size:14px;
+	
+
+}
+
+.widget .socialmeidawidget #till{
+
+	width:20%;
+	height:10px;
+	/*border:1px solid black;
+	border-color: #F1F1F0;
+	border-radius:2px;
+	box-shadow: 2px 2px 1px #E4E4DF;*/
+	margin-right: -30px;
+	float:left;
+	font-size:14px;
+
+
+}
+
+.widget .socialmeidawidget .datepicker{
+
+	margin:1px;
+	padding:2px;
+	display: inline;
+	width:70%;
+	float: right;
+	height:20px;
+	margin-left: -30px;
+	margin-right:18px;
+	margin-top: -5px;
+	border:1px solid black;
+	border-color: #F1F1F0;
+
+}
+
+.widget .socialmeidawidget input[type="checkbox"] {
+}
+
+/*.widget .socialmeidawidget input[type="checkbox"] + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    cursor:pointer;
+}
+.widget .socialmeidawidget input[type="checkbox"]:checked + label span {
+
+}*/
+
+.widget .socialmeidawidget .filter {
+text-align: left;
+font-size: 12px;
+font:arial;
+}
+
+.widget .socialmeidawidget #mellanTop_top{
+
+	height:15px;
+
+}
+
+.widget .socialmeidawidget #checkBox{
+
+	height: 15px;
+	width:15px;
+	color:#1f548e;
+	box-shadow: 4px 4px 2px #B4B4B4;  
+	margin-left:-60px;
+	margin-top: -150px;
+}
+
+/*.widget .socialmeidawidget #rensa{
+	height: 25px;
+	width:45px;
+	border:1px solid black;
+	border-color:#1f548e;
+	background-color:#ECECEC; 
+	box-shadow: 2px 2px 1px #1f548e; 
+	border-radius: 2px;	
+	margin-left: 60px;
+	margin-top: -45px;
+    font-size: 12px;
+}*/
+
+
+.widget .socialmeidawidget #no{
+
+	font-size: 12px;
+	font-family: Arial;
+	margin-top: -15px;
+}
+
+.widget .socialmeidawidget .filter{
+
+	margin-right:50px;
+	margin-left:50px; 
+}
+
+.widget .socialmeidawidget #accordion{
+
+	float:right;
+}
+
+.widget .socialmeidawidget .go{
+
+	width:90px;
+	height:40px;
+	border-color: #CDCDC9;
+	margin-left:20px;
+	background-color: #F0F0EF;
+}
+
+.widget .socialmeidawidget .go_knapp{
+
+	font-family: Arial;
+	font-size: 12px;
+	color: #ffffff;
+	background-color:#1f548e;
+	font-weight: bold;
+	text-align: center;
+        height: 70%;
+        width: 50%;
+	margin-left:55px;
+	cursor:pointer;
+	margin-top:-30px;
+}
+.widget .socialmeidawidget .go_knapp:hover {
+	background-color: rgba(255,255,255,0.3);
+	color:#1f548e;
+	border:2px solid black;
+	border-color:#1f548e;
+
+}
+
+.widget .socialmeidawidget .rightSide{
+
+	width:100px;
+	height:100%;
+	float:right;
+	border-right:1px solid black;
+	border-color:#EFEFEC;
+	/* background-color: #EBEBEB; */
+	min-height:5px;
+	min-width:5px;
+	margin-top: -0.2px;
+	/* border-bottom-right-radius: 5px; */
+
+
+
+}
+
+.widget .socialmeidawidget .statistic_1{
+	text-align: center;
+	font-size: 12px;
+	font-family: Arial;
+	color: #6095C9;
+	margin-right:16px;
+
+}
+.widget .socialmeidawidget .statistic_2{
+	text-align: center;
+	font-size: 12px;
+	color: #A73914;
+	font-weight: bold;
+	font-family: Arial;
+	margin-top: -1px;
+	margin-right:16px;
+
+}
+.widget .socialmeidawidget .statistic_3{
+	text-align: center;
+	font-size: 12px;
+	color: #6095C9;
+	margin-right:16px;
+
+}
+
+.widget .socialmeidawidget #statistic_3Box{
+
+	width:50px;
+	height: 20px;
+	border: 2px solid black;
+	border-color: #000000;
+}
+
+
+
+/*
+
+SUBWIDGET 1 
+
+*/
+
+.social1{
+
+	height:99%;
+	width:99%;
+	border:2px solid black;
+	border-radius: 10px;
+	border-color: #D4D4CA;
+
+}
+
+
+.social1 .top{
+
+	width:100%;
+	height:10%;
+	background-color:#1f548e;
+	display: block;
+	top: -10%;
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+}
+
+.social1 .bottom{
+
+	overflow: scroll;
+	width:100%;
+	height:90%;
+	background-color: #D6D6D3;
+}
+
+.social1 #twitterLogga{
+
+	max-width: 90%;
+	max-height: 90%;
+    float: right;
+    padding-top:1px;
+    
+}
+
+.social1 h4{
+
+	font-family: Verdana;
+	font-weight: bold;
+	text-align: center;
+	color: #ffffff;
+	margin-bottom: 100px;
+	margin-top: 0px;
+}
+
+
+.social1 table{
+	font-family: arial;
+	width: 100%;
+	border-collapse: collapse;
+	background-color: rgba(255,255,255,0.3);
+	color: gray;
+
+}
+
+
+.social1 td{
+	padding: 15px
+}
+
+.social1 .child-1{
+	cursor: pointer;
+	font-family:Verdana;
+	font-size: 10pt;
+}
+
+.social1 tbody tr:hover { 
+    background-color: rgba(255,255,255,0.3);
+}
+
+.social1 tr:nth-child(even) td { 
+    background-color: rgba(255,255,255,0.2);
+    padding: 15px;
+
+}  
+
+.social1 tr:nth-child(odd) td { 
+    background-color: rgba(255,255,255,0.3);
+    padding: 15px;
+}  
+
+
+.social3 {
+	background-color: #fff;
+	height: 100%;
+	padding-top: 50px;
+}
+
+p.searchText{
+	font-size:12px;
+	width:100%;
+	margin-left:4px;
+}
+
+p.startText{
+	font-size:15px;
+	width:100%;
+}
+
+.searchArea{
+	width:100%;
+}
+
+p.startVal{
+	font-size:12px;
+	margin-top:-8px;
+	text-align:center;
+}
+
+input[type="radio"] {
+;
+}
+input[type="radio"] + label span {		
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-1px 4px 0 0;
+    cursor:pointer;	
+}
+
+input[type="radio"]:checked + label span {
+    background:url(<span class="skimlinks-unlinked">check_radio_sheet.png</span>) -19px top no-repeat;
+}
+
+.radioLeft{
+	float:left;
+	margin-left:-30px;
+}
+
+.radioRight{
+	float:right;
+	margin-right:-30px;
+}
+
+.wordcloudRubrik{
+	font-family:Arial;
+	font-size:18px;
+	text-align:center;
+	margin-top:-10px;
+}
+
+

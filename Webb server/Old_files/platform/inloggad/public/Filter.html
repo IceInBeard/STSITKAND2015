@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Filter</title>
+	<link rel="stylesheet" type="text/css" href="css/Filter.css">
+	<script src="js/Filter.js"></script>
+</head>
+</head>
+<body>
+	<div class="filter"><!--Här är hela den stora rutan-->
+		<div class="leftSide"><!--Här är alla övergripande kategorier-->
+			<ul>
+				<li id="leftSideCategory">Kategori</li>
+				<li id="leftSideStatus">Status</li>
+				<li id="leftSideDescription">Beskrivning</li>
+				<li id="leftSideDate">Datum</li>
+				<li id="leftSideComment">Kommentar</li>
+			</ul>
+		</div> 
+		<div class="rightSide"><!--Här är alla val man kan välja på varje kategori-->
+			
+
+				<ul id="rightSideCategory">
+				        <li>
+				            <input checked onclick="switchCheckbox2(this)" id="option" type="checkbox" value="Vägar">
+				            <label class="checkbox" for="option"> Vägar</label>
+				            
+				            <input checked onclick="switchCheckbox2(this)" id="option2" type="checkbox" value="Trafik" >
+				            <label class="checkbox" for="option2"> Trafik</label>
+				            
+				            <input checked onclick="switchCheckbox2(this)" id="option3" type="checkbox" value="Cykel" >
+				            <label class="checkbox" for="option3"> Cykel</label>
+				            
+				            <input checked onclick="switchCheckbox2(this)" id="option4" type="checkbox" value="Vegetation" >
+				            <label class="checkbox" for="option4"> Vegetation</label>
+					
+							<input checked onclick="switchCheckbox2(this)" id="option5" type="checkbox" value="Renhållning" >
+				            <label class="checkbox" for="option5"> Renhållning</label>
+
+							<input checked onclick="switchCheckbox2(this)" id="option6" type="checkbox" value="Allmänna platser" >
+				            <label class="checkbox" for="option6"> Allmänna platser</label>
+
+							<input checked onclick="switchCheckbox2(this)" id="option7" type="checkbox" value="Klotter" >
+				            <label class="checkbox" for="option7"> Klotter</label>
+
+							<input checked onclick="switchCheckbox2(this)" id="option8" type="checkbox" value="Opinion" >
+				            <label class="checkbox" for="option8"> Opinion</label>
+
+							<input checked onclick="switchCheckbox2(this)" id="option9" type="checkbox" value="Övrigt" >
+				            <label class="checkbox" for="option9"> Övrigt</label>
+
+							<input checked onclick="switchCheckboxAll(this)" id="Option10" type="checkbox" value="Välj alla">
+				            <label class="checkbox" for="Option10"> Välj alla</label>
+					
+				        </li></ul>
+				        <ul id="rightSideStatus">
+				<li>Fixad <input id="checkStatusFixed" type="checkbox" onlick="switchCheckbox(this)" value="statusFixed" checked=""></input></li>
+				<li>Ofixad  <input id="checkStatusUnfixed" type="checkbox" onlick="switchCheckbox(this)" value="statusUnfixed" checked=""></input></li>
+				<li>Påbörjad  <input id="checkStatusOngoing" type="checkbox" onlick="switchCheckbox(this)" value="statusOngoing" checked=""></input></li></ul>
+
+				<ul id="rightSideDescription">
+				<li>Visa beskrivning  <input id="checkDescriptionShow" type="checkbox" onlick="switchCheckbox(this)" value="checkDescriptionShow" checked=""></input></li></ul>
+
+				<ul id="rightSideDate">
+				<li>Visa datum  <input id="checkDateShow" type="checkbox" onlick="switchCheckbox(this)" value="checkDateShow" checked=""></input></li></ul>
+
+				<ul id="rightSideComment">
+				<li>Visa kommentarer  <input id="checkCommentShow" type="checkbox" onlick="switchCheckbox(this)" value="checkCommentShow" checked=""></input></li></ul>
+			</div>
+		</div>
+
+	</body>
+	</html>

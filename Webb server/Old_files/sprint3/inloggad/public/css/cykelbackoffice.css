@@ -1,0 +1,150 @@
+/*
+#
+#  Temporary CSS for the cykel bikeoffice 
+#  Will be integrated in backoffice.css
+#  at a later date. 
+#
+#  Specify the CSS based on the parent element,
+#  for example: #right-column #miniMap { - Some atributes - }
+*/
+
+
+#cykelknappmeny button{
+	float:left;
+	font-size: 0.8em;
+	color: #999;
+	/*font-weight: 300;
+	/* font-family: 'Droid Sans', sans-serif; */
+	margin-top: 15px;
+	margin-left: 21px;
+	margin-bottom: 15px;
+	float: left;
+	color: #fff;
+	cursor: pointer;
+	/* font-weight: 900; */
+	outline: none;
+	/* font-family: 'Raleway', sans-serif; */
+	padding: 6px 2px;
+	width: 120px;
+	font-size: 18px;
+	background:#1f548e;
+	border:3px solid #1f548e;
+}
+
+#cykelknappmeny button:hover {
+	background: #fff;
+	color:#1f548e;;
+	border:3px solid #1f548e;;
+	color:#1f548e;
+
+}
+
+#update_bicycle{
+font-family: Arial;
+	font-size: 12px;
+	color: #ffffff;
+	background-color:#1f548e;
+	font-weight: bold;       
+	border:3px;
+	cursor:pointer;
+  margin-left: 3%;
+  margin-right: 4%;
+}
+
+#cykelknappmeny button:nth-child(1) {
+margin-left: 10px;
+
+}
+
+
+#detailedMarkerInfo #name,{
+margin-left: 20px;
+}
+
+
+#detailedMarkerInfo #name {
+	font-size: 1.2em;
+}
+
+
+#detailedMarkerInfo #upperInfo, #detailedMarkerInfo #position, #detailedMarkerInfo #lowerInfo{
+	margin-left:20px;
+	margin-bottom:0px;
+}
+
+#right-column #detailedMarkerInfo .bikeDescription{
+	font-size: 12px;
+    	font-weight: bold;
+	width:72%;
+  	text-align: left;
+}{
+	font-size: 12px;
+    	font-weight: bold;
+	width:72%;
+  	text-align: left;
+}
+
+#lower-info {
+  margin: 0px;
+}
+
+#detailedMarkerInfo #buttonHolder{
+	text-align: center;
+	padding: 10px;
+}
+
+#updateTest, #editButton, #NewCompButton, #remove{
+font-family: Arial;
+	font-size: 12px;
+	color: #ffffff;
+	background-color:#1f548e;
+	font-weight: bold;
+	text-align: center;
+       
+	border:3px;
+	cursor:pointer;
+}
+#parking{ display:none;
+}
+#verkstad{ display:none;}
+#pump{ display:none;}
+#newShop-div {
+    display:none;
+	position: relative;
+	width: 500px;
+	background-color: white;
+	overflow: hidden;
+
+}
+
+#newPump-div {
+    display:none;
+	position: relative;
+	width: 500px;
+	background-color: white;
+	overflow: hidden;
+
+}
+
+#newParking-div {
+    display:none;
+	position: relative;
+	width: 500px;
+	background-color: white;
+	overflow: hidden;
+
+}
+
+#remove-div {
+    display:none;
+	position: relative;
+	width: 500px;
+	background-color: white;
+	overflow: hidden;
+
+}
+
+
+
+
+

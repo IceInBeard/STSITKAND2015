@@ -1,0 +1,222 @@
+/*
+#
+#	Allmant buggfix 
+#
+*/
+
+html, body {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: 0;
+  vertical-align: baseline;
+}
+
+html body img {
+	display: block;
+  	max-width: 100%;
+  	height: auto;
+  	text-decoration: none;
+  	border: 0;
+}
+
+
+
+html body ul {
+
+ 	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+/*
+#
+#	Clearfix (Lite CSS-haxx) 
+#
+*/
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.clearfix {
+    display: inline-block;
+}
+.clearfix {
+    display: block;
+}
+
+
+/*
+#
+#	Fran grafiska proilen - Framtagen av designgruppen 
+# (Tillfixad av Platform  )
+*/
+
+html body {
+	/* font-family: "Times New Roman", Times, Serif; font-style: normal; */
+  font-family: 'Droid Sans',Arial,sans-serif;
+  font-style: normal;
+  color: #747474;
+
+}
+
+html body h1, h2, h3, h4, h5, h6 {
+	font-family: 'Droid Sans', Arial, sans-serif; 
+  font-style: normal;
+  color: #747474;
+
+}
+
+
+
+/* 
+#
+# Grundstruktur - En div Content ligger i en div Container
+#
+*/
+
+
+#container, #container-wide{
+	float: none;
+  position: relative;
+  max-width: 990px;
+  margin: 0 auto;
+	padding: 10px 32px 10px 32px;
+  min-height: 700px;
+
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#container-wide{
+  width:100% !important;
+  max-width: 100% !important;
+  min-width: 990px;
+
+}
+  
+
+#container #content{
+    width: 100%;
+    height: 100%;
+    display: block;
+    float: left;
+    margin-bottom: 20px;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+    
+}
+
+#container-wide #content{
+    width: 100%;
+    height: 100%;
+    display: block;
+    float: left;
+    margin-bottom: 20px;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+    
+
+
+
+
+/* ######### Footer ############## */
+
+footer {
+  height: 100%;
+  width: 990px;
+  position:relative;
+  margin:0 auto;
+  
+}
+
+
+
+#footer-container{
+  border-top: 4px solid #005389;
+  background-color: #e5e3e1;
+  clear: both;
+  height: 300px;
+  width: 100%;
+  position:relative;
+  bottom:0;
+}
+
+
+footer p.footerText{
+  color: #FF0000;
+  background: #e5e3e1;
+
+}
+
+footer .footer-left {
+  margin-left: 20px;
+padding: 0 5px;
+  float: left;
+  width: 340px;
+  background: #e5e3e1;
+  
+}
+
+footer .footer-middle {
+  
+  padding: 0 5px;
+  float: left;
+  width: 320px;
+  background: #e5e3e1;
+  
+}
+
+footer .footer-right {
+  padding: 0 5px;
+  float: right;
+  width: 230px;
+  background-color: #e5e3e1;
+  
+
+
+}
+
+.footer-h1 {
+  color:#000000;
+  font-size: 1.0625rem;
+  font-family: 'Droid Serif',Times,serif;
+  margin-bottom: 0;
+  background: #e5e3e1;
+}
+
+.footer-h2 {
+  margin-top: 10px;
+  margin-bottom: 2px;
+  font-weight: bold;
+  color: dark grey;
+  font-size: .9375rem;
+  font-family: 'Droid Serif',Times,serif;
+  background: #e5e3e1;
+}
+
+.footer-p {
+  margin-top: 0px;
+  margin-bottom: 0;
+  color: dark grey;
+  font-size: .9375rem;
+  font-family: 'Droid Serif',Times,serif;
+  background-color: #e5e3e1;
+}
+
+
+
+.tillbaka_knapp a{
+  color: #005eab;
+  font-weight: bold;
+
+}

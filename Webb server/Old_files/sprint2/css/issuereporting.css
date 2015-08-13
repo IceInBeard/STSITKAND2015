@@ -1,0 +1,236 @@
+.widget .issueReportWidget{
+	height:100%;
+	width:99%;
+	
+	/*border:2px solid black;
+	border-radius: 10px;
+	border-color: #D4D4CA; */
+	margin-bottom: 1px;
+}
+
+/*
+.widget .issueReportWidget .header{
+
+	width:100%;
+	height:10%;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	 background-color:#1f548e;
+	display: block;
+}
+*/
+
+
+
+.widget .issueReportWidget .list{
+	/*overflow: scroll;*/
+	width:100%;
+	height:90%;
+	/* background-color: #EBEBEB;*/
+}
+
+.widget .issueReportWidget .list ul {
+	padding: 0;
+    margin: 0;
+    /* padding-left: 10%; */
+	display: inline-block;
+	border-radius: 0%;
+    border-style: solid;
+    border-collapse: collapse;
+    border-color: transparent;
+    padding-bottom: 1%;
+}
+
+.widget .issueReportWidget .list li {
+	font-family: arial;
+    color:gray;
+    font-size:10pt;
+    list-style-type: none;
+   	border-radius: 0%;
+    border-style: solid;
+    border-collapse: collapse;
+    border-color: transparent; 
+    padding-top: 2%;
+	padding-bottom: 0%;
+}
+
+.widget .issueReportWidget .list li img {
+	float: left;
+	display: inline-block; 
+	margin-right: 5px;
+}
+
+
+.widget .issueReportWidget .search p {
+	
+	font-family: arial;
+    color:gray;
+    font-size:10pt;
+}
+
+
+
+.widget .issueReportWidget .search p, .searchbar {
+ 
+    padding: 0;
+    margin: 0;
+    padding-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+.IssueSubwidget{
+	height:251px;
+	width:621px;
+}
+
+.IssueSubwidget .left{
+
+	width:50%;
+	height:100%;
+	float: left;
+}
+
+.IssueSubwidget .right{
+
+	width:50%;
+	height:100%;
+	float: left;
+}
+
+.IssueSubwidget h4{
+	font-family: Arial;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 100px;
+	margin-top: 0px;
+}
+
+.IssueSubwidget .close{
+	float: right;
+}
+
+.IssueSubwidget table{
+	width: 100%;
+	height: 90%;
+}
+
+.IssueSubwidget td{
+	font-family: Arial;
+}
+
+.IssueSubwidget input{
+	float: right;
+	width: 65%;
+	border-radius: 5px;
+}
+
+.IssueSubwidget textarea{
+	float: right;
+	width: 65%;
+	overflow: auto;
+	resize: none;
+	border-radius: 5px;
+}
+
+.IssueSubwidget select{
+	float: right;
+	width: 65%;
+	border-radius: 5px;
+}
+
+.IssueSubwidget .beskrivning{
+	height: 200%;
+}
+
+
+.IssueSubwidget tr td { 
+    padding: 10px;
+}  
+
+.issueReportWidget .search{
+	margin-top: 15px;
+	margin-left: 5px;
+}
+
+.IssueSubwidget .sokKnapp{
+	font-family: Arial;
+	font-size: 12px;
+	color: #ffffff;
+	background-color:#1f548e;
+	font-weight: bold;
+	text-align: center;
+    height: 23px;
+    width: 100px;
+	margin-left:100px;
+	margin-bottom: 20px;
+	cursor:pointer;
+	border:3px;
+	border-color:#1f548e;
+}
+
+.IssueSubwidget .sokKnapp:hover {
+	background-color: #fff;
+	color:#1f548e;
+	border-style: solid;
+	border-width: 3px;
+	border-color:#1f548e;
+}
+
+
+
+.issueReportWidget #search{
+
+	margin-top: 8px;
+	position: relative;
+	width: 260px;
+	bottom: auto;
+	right: auto;
+	height: 35px;
+	border: 1px solid #ccc;
+	box-sizing:border-box;
+	background-color: #fff;
+}
+
+.issueReportWidget #search>input {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  border: 1px solid #ccc;
+  height: 33px;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+
+.issueReportWidget #search #query {
+
+  font-family: 'Droid Sans',Arial,sans-serif;
+  width: 100%;
+  line-height: 25px;
+  padding: 3px 32px 3px 3px;
+  border: 0;
+}
+
+.issueReportWidget #search #searchbutton {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50px;
+  padding: 0;
+  border: 0;
+  background: url(https://www.uppsala.se/Content/Images/search_icon.png) no-repeat #005389 scroll 50% 50%;
+  background-size: 22px;
+  text-indent: -5000px;
+  box-sizing:border-box;
+}

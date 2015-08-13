@@ -1,0 +1,7 @@
+<?php
+//include_once "PubDBQuerries.php";
+//$PubDBQuerries = new PubDBQuerries;
+//$PubDBQuerries->loggedInCheck();
+include_once "header.php";
+
+?>

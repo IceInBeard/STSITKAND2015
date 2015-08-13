@@ -1,0 +1,190 @@
+#header-container{
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #1f548e;
+}
+
+#top{
+    width: 75%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+
+}
+
+#kommunLogga{
+    max-height: 100%;
+    float: left;
+
+}
+
+#topMenu{
+    width: 50%;
+    height: 100%;
+    float: left;
+
+}
+
+#topMenu div{
+    position: relative;
+    width: 20%;
+    height: 90%;
+    margin-left:4%;
+    float: left;
+}
+
+.rubriker{
+    position: absolute;
+    bottom: 5%;
+    font-size: 20px;
+    font-family: Arial;
+    height:20%;
+    color:#ffffff;
+    text-decoration: none;
+    margin-bottom: 5%;
+}
+
+.searchbar{
+    float: right;
+}
+
+#border-container{
+    position: absolute;
+    top: 10%;
+    left: 0px;
+    height: 2%;
+    width: 100%;
+}
+.gulkant{
+    top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    height:100%;
+    width: 100%;
+    background-color:#FFCC00;
+}
+
+
+#checkContainer{
+    z-index: 1;
+	float: left;
+	width:21%;
+	height:100%;
+	overflow: scroll;
+	position: absolute;
+	background-color: rgba(255,255,255,0.4);
+}
+
+
+
+#map{
+    /*background-image: url("http://vb.uppsala.se/PageFiles/4281/kartbild_redigerad-1.jpg");*/
+    position: absolute;
+    top: 12%;
+    left: 0px;
+    width:100%;
+    height:60%;
+    overflow: scroll;
+}
+
+#map_container{ 
+    position: absolute;
+    left: 0px;
+    width:100%;
+    height:100%;
+    overflow: scroll;
+}
+
+thead{
+	font-weight: bold;
+	font-size: 18pt;
+	background-color: rgba(255,255,255,1);
+
+}
+
+table{
+	font-family: arial;
+	width: 100%;
+	border-collapse: collapse;
+	background-color: rgba(255,255,255,0.3);
+	color: gray;
+
+}
+
+.header{
+	cursor: pointer;
+	font-family: Arial; 
+	font-size:14pt;
+	background-color: rgba(255,255,255,0.6);
+}
+
+td{
+	padding: 15px
+}
+
+.child{
+	cursor: pointer;
+	font-family:Arial;
+	font-size: 11pt;
+}
+
+.tr:hover{
+	background-color: rgba(0,255,255,0.9);
+}
+
+#widgetsMain{
+    width:100%;
+    height:40%;
+    position: absolute;
+    top: 72%;
+    left: 0px;
+    overflow: scroll;
+}
+
+
+.widget{
+	height: 80%;
+	width: 33.333%;
+	border: 1px;
+	float: left;
+}
+
+
+#BikeInfo{
+	display: none;
+	background-color: #e8112d;
+}
+
+#socialMedia{
+	display: none;
+	background-color: #1f548e;
+}
+
+#issueReporting{
+	display: none;
+	background-color: #009E60;
+}
+
+#footer{
+    width:100%;
+    height:20%;
+    position: absolute;
+    border:1px;
+    color: #fcd116;
+}
+
+#wholepage{
+    width: 100%;
+    height: 150%;
+    overflow: scroll;
+}
+#ui-datepicker-div {
+    font-size: 55.5% !important;
+    width: 35%;
+    background-color: #1c94c4;
+
+}

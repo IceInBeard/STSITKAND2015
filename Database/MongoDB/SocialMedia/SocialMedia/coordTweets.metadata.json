@@ -1,0 +1,1 @@
+{ "options" : { "create" : "coordTweets" }, "indexes" : [ { "v" : 1, "key" : { "_id" : 1 }, "ns" : "SocialMedia.coordTweets", "name" : "_id_" } ] }

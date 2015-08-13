@@ -1,0 +1,50 @@
+<?php
+   header('Content-type: text/plain; charset=utf-8');
+   try {
+   $m = new MongoClient();
+   }
+
+   catch (MongoException $ex) {
+ 
+  
+ }
+	
+   
+$db = $m->issuereporting;   
+$collection1 = $db->report;
+$cursor1 = $collection1->find();
+
+
+$newCompanyName = $_post["companyName"]
+$newArea = $_post["area"]
+$newUserid = $_post["userId"]
+$newEmail = $_post["email"]
+$newCategoriesText = $_post["categories"]
+  
+$action = $_POST["action"];
+
+$db = $m->issuereporting;
+
+
+$collection2 = $db->companies;
+
+   $cursor2 = $collection2->find();
+
+ $data = array();
+  
+    foreach ($cursor2 as $document) {
+   
+	array_push($data, $document);
+    }
+
+
+if($action == "createCompany"){
+foreach($cursor2 as $variable) {
+$document2= array(Name=> $newCompanyName, GeoArea=> $newArea, Category=> [$newCategoriesText], Email=> $newEmail, CompanyId=> $newUserid);
+}
+
+$collection2-> insert($document2);
+
+
+echo json_encode($data);
+print $data;

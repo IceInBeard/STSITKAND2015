@@ -1,0 +1,112 @@
+
+<html>
+
+
+
+
+<head>
+<script src="http://maps.googleapis.com/maps/api/js">
+</script>
+    <meta charset="UTF-8">
+
+<title>Uppsala Municipality</title>	
+<link rel="stylesheet" type="text/css" href="anvsida_.css">
+<script src="jquery-1.11.2.min.js"></script>
+<script src="anvsida_.js"></script>
+<script src="mappoints.js"></script>
+<script src="datatomap.js"></script>
+
+</head>
+
+
+<div id="header-container">
+    <header id="top">
+
+        <img id="kommunLogga" src="https://www.uppsala.se/Content/Images/logo_neg.png" alt="Uppsala kommuns logotyp">
+
+        <div id="topMenu" role="navigation">
+            <div><a class="rubriker" href="anvsida_.html">Map</a></div>
+            <div><a class="rubriker" href="IssueReport.html">Issues</a></div>
+            <div><a class="rubriker" href="IssueReport.html">Contact</a></div>
+            <div><a class="rubriker" href="IssueReport.html">Language</a></div>
+        </div>
+
+        <form class="searchbar">
+            <input type="text" class="searchbar knapp" value="Seach on Uppsala.se"/>
+        </form>
+
+    </header>
+</div>
+
+<div id="border-container">
+    <div class="gulkant">
+    </div>
+</div>
+
+
+
+
+<div id="map">
+
+    <div id="checkContainer">
+        <table id="checkTable">
+            <thead>
+                <tr>
+                    <th width="100%"> Alternatives </th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <a href="#"><tr class="header" id="1"> <td colspan="1">Areas</td> </tr></a>
+                <a href="#"><tr class="child-1"> <td>Fålhagen</td> </tr></a>
+                <a href="#"><tr class="child-1"> <td>Kåbo</td> </tr></a>
+                <a href="#"><tr class="child-1"> <td>Stenhagen</td> </tr></a>
+                <a href="#"><tr class="child-1"> <td>Svartbäcken</td> </tr></a>
+
+                <tr class="header" id="2"> <td colspan="1">Issues</td> </tr>
+                <tr class="child-2"> <a href="#"><td>Vegetation <input type="checkbox" id="checkBelaggning" onclick="checkPump()"></td> </tr>
+                <tr class="child-2"> <td>Beläggning <input type="checkbox" id="checkBelaggning" onclick="checkPump()"></td> </tr>
+                <tr class="child-2"> <td>Renhållning <input type="checkbox" id="checkRenhallning" onclick="checkPump()"></td> </tr>
+                <tr class="child-2"> <td>Skyltning <input type="checkbox" id="checkSkyltning" onclick="checkPump()"></td> </tr>
+                <tr class="child-2"> <td>Snöröjning <input type="checkbox" id="checkSnorojning" onclick="checkPump()"></td> </tr>
+                <tr class="child-2"> <td>Målning <input type="checkbox" id="checkMalning" onclick="checkPump()"></td> </tr>
+                <tr class="child-2"> <td>Övrigt <input type="checkbox" id="checkOvrigt" onclick="checkPump()"></td> </tr>
+
+                <tr class="header" id="3"> <td colspan="1">Issue Reporting</td> </tr>
+                <tr class="child-3"> <td>Ongoing issues</td> </tr>
+                <tr class="child-3"> <td>Current events</td> </tr>
+                <tr class="child-3"> <td>Points of interest</td> </tr>
+
+                <tr class="header" id="4"> <td colspan="1">Cykel</td> </tr>
+                <tr class="child-4"> <td>Cykelpumpar <input type="checkbox" id="checkPumps" onclick="checkPump()"></td> </tr>
+                <tr class="child-4"> <td>Cykelverkstäder: <input type="checkbox" id="checkVerkstad" onchange="checkVerkstad()"></td> </tr>
+                <tr class="child-4"> <td>Cykelparkering: <input type="checkbox" id="checkParkering" onchange="checkParkering()"></td> </tr>
+                
+
+            </tbody>
+        </table>
+    </div>
+    <div id="map_container"> </div>
+</div>
+
+
+	
+
+<div id="widgetsMain">
+	<div class="widget" id="bikeInfo">
+	</div>
+	<div class="widget" id="socialMedia">
+	</div>
+	<div class="widget" id="issueReporting"> 
+	</div>
+</div>
+
+<div id="footer">
+        </div>
+</div>
+
+</div>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>PHP/HTML Skal</title>
+</head>
+
+<body>
+<p>
+Här är ett PHP-script som skriver ut vilken webbläsare du använder:
+<br /> 
+<?php
+echo $_SERVER['HTTP_USER_AGENT'] . "\n\n";
+
+$browser = get_browser(null, true);
+print_r($browser);
+?>
+
+</p>
+
+<p>
+För att använda den gemensamma CSS-filen, lägg till följande i head-tagen i dina php-/htmlfiler:
+<quote>
+&lt; link rel="stylesheet" type="text/css" href="http://stsitkand.student.it.uu.se/sharedstyles/styles.css" &gt;
+
+</quote>
+
+</p>
+
+
+</body>
+
+</html> 

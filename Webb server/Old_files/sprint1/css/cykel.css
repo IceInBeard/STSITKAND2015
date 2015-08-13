@@ -1,0 +1,183 @@
+.widget #mainCykelWidget{
+
+	height:270px;
+	width:320px;
+	border:2px;
+	border-radius: 10px;
+	border-color: #D4D4CA;
+
+}
+
+.widget #mainCykelWidget .top{
+	width:100%;
+	height:12%;
+	/* background-color:#1f548e; */
+	display: block;
+	border-radius: 10px 10px 0px 0px;
+
+}
+
+.widget #mainCykelWidget h4{
+	font-family: Verdana;
+	font-weight: bold;
+	text-align: center;
+	color: #ffffff;
+	font-size:12pt;
+	margin-top: 1px;
+	
+}
+
+
+.widget #mainCykelWidget #BicycleCheckbox{
+	width:100%;
+	height:100%;
+	/*background-color: #EBEBEB;*/
+	border-radius: 0px 0px 10px 10px;
+
+}
+
+
+
+.widget #mainCykelWidget #BicycleTable{
+	font-family: Arial;
+	width: 100%;
+	height: 100%;
+	border-collapse: collapse;
+	/*background-color: rgba(255,255,255,0.3);*/
+	color: gray;
+
+}
+
+.widget #mainCykelWidget #BicycleTable tbody{
+	display: block;
+}
+
+.widget #mainCykelWidget .header{
+	font-size:12pt;
+	padding-left:25px;
+
+}
+.widget #mainCykelWidget .header td {
+	padding: 10px 0px 10px 10px;
+}
+
+.widget #mainCykelWidget .header td img {
+	float: left;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+
+.cykelSubWidget {
+
+	height:200px;
+	width:320px;
+	border:2px;
+	border-radius: 10px;
+	border-color: #D4D4CA;
+
+}
+
+
+
+.cykelSubWidget #AmountCyclistTable{
+	width:100%;
+	height:90%;
+	border-radius: 0px 0px 10px 10px;
+}
+
+
+.cykelSubWidget #BicycleCheckbox{
+	width:100%;
+	height:90%;
+	background-color: #D6D6D3;
+}
+
+.cykelSubWidget #AmountCyclistTable {
+	font-family: Arial;
+	width: 100%;
+	height: 100%;
+	border-collapse: collapse;
+	background-color: rgba(255,255,255,0.3);
+	color: gray;
+	font-size: 8pt;
+}
+.cykelSubWidget #AmountCyclistTable td{
+	padding: 10px 0px 10px 10px;
+	font-size: 12pt;
+}
+
+.cykelSubWidget .header{
+	font-size:12pt;
+	font-weight: bold;
+	
+}
+
+
+
+#ServiceShopTable {
+	overflow: scroll;
+	width:100%;
+	height:100%;
+	border-radius: 10px;
+}
+
+
+#ServiceShopTable #BicycleCheckbox{
+	width:100%;
+	height:100%;
+	background-color: #D6D6D3;
+}
+
+#ServiceShopTable table{
+	font-family: Arial;
+	width: 100%;
+	height: 100%;
+	border-collapse: collapse;
+	background-color: rgba(255,255,255,0.3);
+	color: gray;
+	font-size: 10pt;
+}
+
+#ServiceShopTable .header{
+	cursor: pointer;
+	font-size:12pt;
+	padding: 6px;
+}
+
+#ServiceShopTable .section{
+	width:320px;
+	height:75px;
+}
+
+#ServiceShopTable #contact{
+	float: left;
+
+}
+
+#ServiceShopTable #openingHours{
+	width:100px;
+	float: right;
+
+}
+
+#ServiceShopTable #description{
+	width:305px;
+
+}
+
+
+#ServiceShopTable tbody tr:hover {
+	background-color: rgba(255,255,255,0.3);
+}
+
+#ServiceShopTable tr:nth-child(even) td {
+	background-color: rgba(255,255,255,0.3);
+	padding: 5px;
+}
+
+#ServiceShopTable tr:nth-child(odd) td {
+	background-color: rgba(255,255,255,0.4);
+	padding: 5px;
+}
+

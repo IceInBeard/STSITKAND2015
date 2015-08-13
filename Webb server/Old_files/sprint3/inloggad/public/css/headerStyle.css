@@ -1,0 +1,196 @@
+/* 
+############################################
+############# General fix ##################
+############################################
+*/
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: 0;
+  vertical-align: baseline;
+}
+
+html body{
+	  font-family: 'Droid Sans',Arial,sans-serif;
+}
+
+html body img {
+	display: block;
+  	max-width: 100%;
+  	height: auto;
+  	text-decoration: none;
+  	border: 0;
+}
+html body ul {
+	overflow: hidden;
+ 	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.clearfix {
+    display: inline-block;
+}
+.clearfix {
+    display: block;
+}
+
+
+/* 
+############################################
+############### Container ##################
+############################################
+*/
+
+
+
+#header-container{
+	background: #005389;
+  height: 17%;
+  
+  /* max-height: 55px; */
+}
+
+
+#header-container #top {
+	float: none;
+  	position: relative;
+  	max-width: 990px;
+  	margin: 0 auto;
+	 padding: 15px 32px 10px 32px;
+  
+}
+
+
+/* 
+############################################
+################ Logo ######################
+############################################
+*/
+
+
+#header-container #top>a {
+	  float: left;
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+
+#header-container #top>a>img {
+	
+	height: 50px;
+}
+
+
+/* 
+############################################
+################ Menu ######################
+############################################
+*/
+
+
+#header-container #top #topMenu {
+  float: right;
+  padding: 21px 0 0 0;
+  position: relative;
+  bottom: 8px;
+  font-size: 14px;
+}
+
+#header-container #top #topMenu>ul {
+  overflow: hidden;
+}
+
+#header-container #top #topMenu>ul>li {
+  float: left;
+  padding: 0 0 0 1em;
+
+}
+
+#header-container #top #topMenu>ul>li:first-child {
+	padding: 0;
+}
+
+#header-container #top #topMenu ul li a {
+	font-size: 16px;
+  padding: 5px 10px 5px 10px;
+  margin:0px;
+
+}
+
+
+
+#header-container #top #topMenu>ul>li>a {
+  font-size: 16px;
+    padding: 5px 10px 5px 10px;
+  margin: 0;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+}
+
+#header-container #top #topMenu>ul>li>a:hover {
+  text-decoration: underline;
+}
+
+
+
+/* 
+############################################
+################## UserBox #################
+############################################
+*/
+
+
+#header-container #top #usernamediv{
+  position: relative; 
+  float: right;
+  padding: 21px 0 0 0;
+	bottom: 8px;
+	font-size: 14px;
+	color:#fff;
+  padding-left: 32px;
+
+}
+
+#header-container #top #usernamediv a {
+  color:#ff0000;
+}
+
+
+
+
+
+/* 
+############################################
+############# Gul Border ###################
+############################################
+*/
+
+#border-container {
+  background: #fff;
+  margin: 0 auto;
+  max-width: 990px;
+  /* min-width: 990px; */
+  z-index: -1;
+}
+
+#border-container #border {
+  border-top: 12px solid #ffd400;
+  padding: 0 16px 0 16px;
+ 
+
+}
+
+
